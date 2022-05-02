@@ -1,0 +1,60 @@
+nav {
+    background-color: #2060ce;
+}
+
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+
+.card-img-top{
+    object-fit: cover;
+}
+
+footer {
+    background-color: #2060ce;
+}
+
+.card{
+    width : 100px;
+}
+
+.card {
+    width:20rem; 
+    height:20rem
+}
+
+@media (min-width:992px) {
+    .card {
+        height:25rem;  
+    }
+}
+
+
+
+@media (min-width: 1200px){
+    body{
+        height:100vh;
+    }
+}
+@media (min-width: 1300px){
+    main{
+        height:100vh;
+    }
+}
+
+@media (max-width: 992px){
+    #navbarNav {
+        background-color: #2060ce;
+        top:3.5rem;
+        z-index:1;
+    } 
+}
+
+a:hover {
+    color:red;
+}
